@@ -9,7 +9,8 @@ function App() {
 	const [hotels, setHotels] = useState([])
 
 	useEffect(() => {
-		axios.get('http://localhost:3000/db.json').then(({ data }) => {
+		axios.get(window.location +
+			'/db.json').then(({ data }) => {
 			setHotels(data.hotels)
 		})
 	}, [])
