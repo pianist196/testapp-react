@@ -804,7 +804,7 @@
 				"adults": 1,
 				"childsList": []
 			},
-			"distance": 25.09158956204238,
+			"distance": 25,
 			"rub": 2324,
 			"eur": 25.80802,
 			"usd": 30.516444
@@ -1783,7 +1783,7 @@
 				"adults": 1,
 				"childsList": []
 			},
-			"distance": 3.3796915164050687,
+			"distance": 3,
 			"rub": 6958,
 			"eur": 77.26859,
 			"usd": 91.365498
@@ -2872,7 +2872,7 @@
 				"adults": 1,
 				"childsList": []
 			},
-			"distance": 6.513897531157944,
+			"distance": 6,
 			"rub": 4187,
 			"eur": 46.496635,
 			"usd": 54.979497
@@ -4451,7 +4451,7 @@
 				"adults": 1,
 				"childsList": []
 			},
-			"distance": 5.6924962803408565,
+			"distance": 5,
 			"rub": 3390,
 			"eur": 37.64595,
 			"usd": 44.51409
@@ -5050,7 +5050,7 @@
 				"adults": 1,
 				"childsList": []
 			},
-			"distance": 2.2120100809835943,
+			"distance": 2,
 			"rub": 9755,
 			"eur": 108.32927500000001,
 			"usd": 128.092905
@@ -5545,7 +5545,7 @@
 				"adults": 1,
 				"childsList": []
 			},
-			"distance": 9.35011924062566,
+			"distance": 9,
 			"rub": 1850,
 			"eur": 20.54425,
 			"usd": 24.29235
@@ -6344,7 +6344,7 @@
 				"adults": 1,
 				"childsList": []
 			},
-			"distance": 2.0445287790334543,
+			"distance": 2,
 			"rub": 3922,
 			"eur": 43.55381,
 			"usd": 51.499782
@@ -6803,7 +6803,7 @@
 				"adults": 1,
 				"childsList": []
 			},
-			"distance": 4.022421685908308,
+			"distance": 4,
 			"rub": 6703,
 			"eur": 74.436815,
 			"usd": 88.017093
@@ -7052,7 +7052,7 @@
 				"adults": 1,
 				"childsList": []
 			},
-			"distance": 3.22918534381122,
+			"distance": 3,
 			"rub": 5040,
 			"eur": 55.9692,
 			"usd": 66.18024
@@ -7371,7 +7371,7 @@
 				"adults": 1,
 				"childsList": []
 			},
-			"distance": 3.3569262311307093,
+			"distance": 3,
 			"rub": 9379,
 			"eur": 104.153795,
 			"usd": 123.155649

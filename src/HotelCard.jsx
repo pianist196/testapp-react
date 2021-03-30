@@ -9,7 +9,7 @@ function HotelCard({ name, address, imageURL, distance, price }) {
 			<div className="main__card-content">
 				<div className="main__card-title">{name}</div>
 				<div className="main__card-address">{address}</div>
-				<div className="main__card-distance">{distance}</div>
+				<div className="main__card-distance">{distance} км от центра</div>
 				<div className="main__card-price">
 					{price}
 					<span>за ночь</span>

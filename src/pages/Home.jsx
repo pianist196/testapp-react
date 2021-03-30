@@ -2,16 +2,24 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import FiltersBtn from '../FiltersBtn'
 import HotelCard from '../HotelCard'
+import { useSelector } from 'react-redux'
 
-function Home({ items }) {
+function Home() {
+
+	const { items } = useSelector(({ items }) => {
+		return {
+			items
+		}
+	})
+
 	return (
 		<div className="wrapper">
 			<div className="main">
 				<div className="main__title">Москва</div>
 				<div className="main__cards">
 					{
-						items.map((obj) => (
-							<HotelCard
+						items && items.map((obj) => (
+							< HotelCard
 								key={obj.hotel.uuid}
 								name={obj.hotel.name}
 								address={obj.hotel.address}

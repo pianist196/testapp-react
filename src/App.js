@@ -1,25 +1,28 @@
 import Home from './pages/Home'
 import Filters from './pages/Filters'
 import { Route } from 'react-router';
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import axios from 'axios'
+import { setHotels } from './redux/actions/hotels'
+import { useDispatch } from 'react-redux'
 
 function App() {
-
-	const [hotels, setHotels] = useState([])
+	const dispatch = useDispatch()
 
 	useEffect(() => {
-		axios.get('http://localhost:3000/db.json').then(({ data }) => {
-			setHotels(data.hotels)
+		axios.get(window.location + '/db.json').then(({ data }) => {
+			dispatch(setHotels(data.hotels))
 		})
-	}, [])
+	}, [dispatch])
 
 	return (
 		<>
-			<Route exact path="/" render={() => <Home items={hotels} />} />
+			<Route exact path="/" component={Home} />
 			<Route exact path="/filters" component={Filters} />
 		</>
-	);
+	)
 }
 
-export default App;
+
+
+export default App
